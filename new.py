@@ -33,7 +33,7 @@ for m in genai.list_models():
 
 
 # model = genai.GenerativeModel('gemini-pro')
-# response = model.generate_content("Hi how are u")#ne sorusu istersen yaza bilirsin buraya print kisminda da cevap gelicek
+# response = model.generate_content("Hi how are u")#input question
 
 
 model = genai.GenerativeModel('gemini-pro-vision')
